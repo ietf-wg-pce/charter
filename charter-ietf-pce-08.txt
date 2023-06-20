@@ -1,0 +1,96 @@
+﻿The PCE Working Group is chartered to specify the required protocols 
+so as to enable a Path Computation Element (PCE)-based architecture 
+for the computation of paths for MPLS and GMPLS Point to Point and 
+Point to Multi-point Traffic Engineered LSPs. Further, the PCE WG 
+also handle protocol extensions for new path setup types of Segment 
+Routing (SR), BIER, and Detnet.
+
+
+In this architecture path computation does not necessarily occur on 
+the head-end (ingress) LSR, but on some other path computation entity 
+that may not be physically located on each head-end LSR. The TEAS 
+Working Group is responsible for defining and extending architectures 
+for Traffic Engineering (TE) and it is expected that the PCE and TEAS 
+WGs will work closely together on elements of TE architectures that 
+utilize PCE.
+
+
+The PCE WG works on the application of this model within a single 
+domain or within a group of domains (where a domain is a layer, IGP 
+area or Autonomous System with limited visibility from the head-end 
+LSR). At this time, applying this model to large groups of domains such 
+as the Internet is not thought to be possible, and the PCE WG will not 
+spend energy on that topic.
+
+
+The WG specifies the PCE communication Protocol (PCEP) and needed 
+extensions for communication between Path Computation Clients (PCCs) 
+and PCEs, and between cooperating PCEs. Security mechanisms such as 
+authentication and confidentiality are included.
+
+
+The WG works on the mechanisms for inter-domain as well as multi-layer 
+path computation and PCEP extensions for communication between several 
+domains or network layers.
+
+
+The WG defines the required PCEP extensions for Wavelength Switched 
+Optical Networks (WSON) and Flexible Grid while keeping consistency 
+with the GMPLS protocols specified in the CCAMP and TEAS WGs.
+
+
+Work Items:
+
+
+- PCEP extensions to support MPLS and GMPLS Traffic Engineered LSP 
+  path computation models involving PCEs. This includes the case of 
+  computing the paths of intra- and inter-domain TE LSPs. Such path 
+  computation includes the generation of primary, protection and 
+  recovery paths, as well as computations for (local/global) 
+  reoptimization and load balancing. Both intra- and inter-domain 
+  applications are covered.
+
+
+- In cooperation with the TEAS Working Group, development of PCE-
+  based architectures for Traffic Engineering including PCE as a 
+  Central Controller (PCECC). The PCEP extensions are developed in 
+  the PCE Working Group.
+
+
+- In cooperation with protocol specific Working Group (e.g., MPLS, 
+  CCAMP), development of LSP signaling (RSVP-TE) extensions required 
+  to support PCE-based path computation models.
+
+
+- Specification of PCEP extensions for expressing path computation 
+  requests and responses in the various GMPLS-controlled networks, 
+  including WSON and Flexible Grid.
+
+
+- Definition of PCEP extensions for path computation in multi-layer 
+  and inter-domain networks.
+
+
+- Definition of the PCEP extensions used by a stateful PCE for 
+  recommending a new path for an existing or new LSP to the PCC/PCE.
+  Further protocol extensions must cover the case where receiving 
+  PCC/PCE chooses to not follow the recommendation.
+
+
+- Definition of the PCEP extensions for SR-MPLS and SRv6 paths as per 
+  SR Policy architecture in cooperation with SPRING Working Group.
+
+
+- Definition of the PCEP extension for new path setup types (such as 
+  BIER and DETNET) in close cooperation with the respective Working 
+  Groups. 
+
+
+Milestone
+
+
+* July 2023 Submit PCEP YANG Model as a Proposed Standard
+* July 2023 Submit PCEP SRv6 extension as a Proposed Standard
+* Dec 2023 Submit PCEP extensions for SR Policy and Multipath
+* July 2024 Submit Enhancements to Stateful PCE
+* Evaluate WG progress, recharter or close
