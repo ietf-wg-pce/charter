@@ -92,6 +92,7 @@ Milestone
 
 * July 2023 Submit PCEP YANG Model as a Proposed Standard
 * July 2023 Submit PCEP SRv6 extension as a Proposed Standard
+* July 2023 Submit PCEP Native-IP extensions as a Proposed Standard
 * Dec 2023 Submit PCEP extensions for SR Policy and Multipath
 * July 2024 Submit Enhancements to Stateful PCE
 * Evaluate WG progress, recharter or close
