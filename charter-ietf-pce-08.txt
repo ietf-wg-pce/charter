@@ -53,8 +53,9 @@ Work Items:
 
 - In cooperation with the TEAS Working Group, development of PCE-
   based architectures for Traffic Engineering including PCE as a 
-  Central Controller (PCECC). The PCEP extensions are developed in 
-  the PCE Working Group.
+  Central Controller (PCECC) and Central Control Dynamic Routing 
+  (CCDR). The PCEP extensions are developed in the PCE Working 
+  Group.
 
 
 - In cooperation with protocol specific Working Group (e.g., MPLS, 
